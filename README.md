@@ -1,6 +1,16 @@
 # Weather App
 
+![project-representation](representation.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Before start
+
+You need create .env file with [http://openweathermap.org] access key variable.
+
+```
+REACT_APP_API_KEY=YOUR_KEY
+```
 
 ## Available Scripts
 

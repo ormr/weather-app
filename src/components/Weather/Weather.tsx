@@ -38,7 +38,7 @@ const initialState: IState = {
     },
     name: '',
     weather: {
-      main: 'app',
+      main: '',
       description: '',
       icon: '',
       url: '',
@@ -54,8 +54,6 @@ export const Weather: React.FC = () => {
   const { city } = useParams<{ city: string }>();
 
   const [state, setState] = React.useState(initialState);
-
-  console.log(state);
 
   React.useEffect(() => {
     const getCityWeather = async () => {

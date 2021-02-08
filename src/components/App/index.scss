@@ -1,0 +1,130 @@
+.app {
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  max-width: 890px;
+  width: 100%;
+  height: 500px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  background: #4169e1;
+
+  &.app-white {
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+
+    input {
+      color: #fff;
+
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    .side-menu__suggestion-list {
+      border-bottom: 1px solid rgba(#fff, 0.5);
+    }
+  }
+
+  &.app-dark {
+    color: #000;
+
+    a {
+      color: #000;
+    }
+
+    input {
+      color: #000;
+
+      &::placeholder {
+        color: #000;
+      }
+
+      border-bottom: 1px solid rgba(#000, 0.5);
+    }
+
+    .side-menu__suggestion-list {
+      border-bottom: 1px solid rgba(#000, 0.5);
+    }
+  }
+
+  &.app-background-1 {
+    background: url('../../assets/backgrounds/background-1.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-2 {
+    background: url('../../assets/backgrounds/background-2.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-3 {
+    background: url('../../assets/backgrounds/background-3.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-4 {
+    background: url('../../assets/backgrounds/background-3.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-5 {
+    background: url('../../assets/backgrounds/background-3.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-6 {
+    background: url('../../assets/backgrounds/background-3.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-7 {
+    background: url('../../assets/backgrounds/background-3.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-8 {
+    background: url('../../assets/backgrounds/background-3.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-9 {
+    background: url('../../assets/backgrounds/background-9.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-10 {
+    background: url('../../assets/backgrounds/background-9.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-11 {
+    background: url('../../assets/backgrounds/background-12.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-12 {
+    background: url('../../assets/backgrounds/background-12.jpg') no-repeat
+      center center fixed;
+    background-size: cover;
+  }
+
+  &.app-background-50 {
+    background: url('../../assets/backgrounds/background-50.jpg') no-repeat left
+      center fixed;
+    background-size: cover;
+  }
+}

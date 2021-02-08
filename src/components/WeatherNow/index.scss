@@ -1,0 +1,65 @@
+.weather-now {
+  flex-basis: 60%;
+  padding: 40px 0 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__logo {
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  &__info {
+    max-width: 420px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__temperature {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-basis: 20%;
+    font-size: 64px;
+
+    &:after {
+      content: '°';
+    }
+  }
+
+  &__location-and-date {
+    padding: 0 10px;
+    flex-basis: 60%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__city-name {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &__date {
+    font-size: 10px;
+  }
+
+  &__weather-event {
+    flex-basis: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--icon {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
